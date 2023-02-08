@@ -1,0 +1,36 @@
+.processCard {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 3.80976px 0.952441px 15px rgba(154, 160, 170, 0.15);
+  max-width: 300px;
+  max-height: 170px;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+
+  h1 {
+    font-size: 18px;
+    line-height: 16px;
+  }
+
+  p {
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #666666;
+  }
+}
+
+.iconBlock {
+  background-color: #B8D3EC;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 270px 151px;
+  img {
+    margin: 10px 20px;
+  }
+}

@@ -1,0 +1,32 @@
+.processLibrary {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+};
+
+.processesContainer {
+  display: flex;
+  gap: 26px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2B2B2B;
+}
+
+.processHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createProcessCta {
+  background-color: #061839;
+  border-radius: 6px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  color: #FFF;
+  margin-right: 25px;
+  cursor: pointer;
+}

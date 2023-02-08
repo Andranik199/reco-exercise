@@ -1,0 +1,15 @@
+html, body, #root, #root>div {
+  height: 100%
+}
+
+body {
+  background-color: #F8F9F9;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
